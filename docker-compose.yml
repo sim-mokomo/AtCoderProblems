@@ -1,0 +1,8 @@
+version: '3'
+services:
+  gcc:
+    build: .
+    tty: true
+    container_name: gcc
+    volumes:
+      - .:/code
